@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Launch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="./static/css/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./static/css/accordion.css" rel="stylesheet" type="text/css" media="all">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <script>
+      d3v3 = d3
+      window.d3 = null
+  </script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <style type="text/css">
+
+
+</style>
+</head>
+<body id="top">
+
+    <!-- Top Background Image Wrapper -->
+    <div class="bgded overlay");">
+        <!-- ################################################################################################ -->
+        <div class="wrapper row1">
+            <header id="header" class="hoc clear">
+                <!-- ################################################################################################ -->
+                <div id="logo" class="fl_left">
+                    <h1><a href="./templates/index.html">CSE 6242 - JSON Bourne</a></h1>
+                </div>
+                <!-- ################################################################################################ -->
+                <nav id="mainav" class="fl_right">
+                    <ul class="clear">
+                        <li class="active"><a href="./templates/index.html">Home</a></li>
+                        <li><a class="drop" href="#">Pages</a>
+                            <ul>
+                                <li><a href="/launch">Launch</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </nav>
+                <!-- ################################################################################################ -->
+            </header>
+        </div>
+        <!-- ################################################################################################ -->
+    </div>
+    <!-- End Top Background Image Wrapper -->
+
+    <!-- main body -->
+    <div class="content">
+    <div  id="selector">
+        <h2>Improve your Ratings</h2>
+    </div>
+
+    <div class="visualization">            
+
+        <div id="accordion">
+
+            <button class="accordion" id="accordion_1">Attribute 1</button>
+            <div class="panel"  id="panel_in_1">
+                <table id="table1">
+                <tr> <th> ID </th> <th>location </th> <th> rating </th> <th> number of reviews </th> <th> url </th> </tr>
+                <tr class='data_row' id='row1'> </tr>
+                
+                </table>
+            </div>
+
+            <button class="accordion" id="accordion_2">Attribute 2</button>
+            <div class="panel"  id="panel_in_2">
+                <table id="table2">
+                <tr> <th> ID </th> <th>location </th> <th> rating </th> <th> number of reviews </th> <th> url </th></tr>
+                <tr class='data_row' id='row2_1'> </tr>
+                </table>
+            </div>
+
+            <button class="accordion" id="accordion_3">Attribute 3</button>
+            <div class="panel"  id="panel_in_3">
+                <table id="table3">
+                <tr> <th> ID </th> <th>location </th> <th> rating </th> <th> number of reviews </th> <th> url </th></tr>
+                </table>
+            </div>
+
+            <button class="accordion" id="accordion_4">Attribute 4</button>
+            <div class="panel"  id="panel_in_4">
+                <table id="table4">
+                <tr> <th> ID </th> <th>location </th> <th> rating </th> <th> number of reviews </th> <th> url </th> </tr>
+                <tr class='data_row' id='row4'> </tr>
+                </table>
+            </div>
+
+            <button class="accordion" id="accordion_5">Attribute 5</button>
+            <div class="panel"  id="panel_in_5">
+                <table id="table5">
+                <tr> <th> ID </th> <th>location </th> <th> rating </th> <th> number of reviews </th> <th> url </th> </tr>
+                <tr class='data_row' id='row5'> </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="restaurant_reviews">
+        <div id="wordcloud"></div>
+        <div id="reviews"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <div id="copyright" class="hoc clear">
+            <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">EG</a></p>
+            <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+        </div>
+    </div>
+
+    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+
+    <!-- JAVASCRIPTS -->
+    <script src="./static/scripts/jquery.min.js"></script>
+    <script src="./static/scripts/jquery.backtotop.js"></script>
+    <script src="./static/scripts/jquery.mobilemenu.js"></script>
+    <script src="./static/scripts/input_improve.js"></script>
+    <script src="static/scripts/cloud.js"></script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKCa0I2oUsTRJIglcvHqVQWciMLc0_wNI&callback=initMap"></script>
+</body>
+</html>
