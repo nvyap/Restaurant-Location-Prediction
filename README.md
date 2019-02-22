@@ -12,4 +12,6 @@ Models used:
 3) Used LDA through Gensim and nltk.corpus to identify relevant topics from customer reviews of a restaurant.
 4) Text summarization techniques such as similarity through TextRank algorithm through Gensim package to obtain meaningful summaries of relevant reviews.
 
+Model code in src folder 
+
 
